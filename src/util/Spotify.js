@@ -1,4 +1,4 @@
-const clientId = 'c63eaaab31504a5d917153310bbc0633';
+const clientId = process.env.REACT_APP_CLIENT_ID;
 const redirectUri = 'http://jammming-sweater.surge.sh';
 let accessToken;
 
